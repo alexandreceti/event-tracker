@@ -6,12 +6,13 @@ import Calendario from './components/Calendario';
 import ListaDeEventos from './components/ListaDeEventos';
 
 import { RecoilRoot } from 'recoil'
+import LoadApp from './components/LoadApp';
 
 function App() {
 
   return (
     <RecoilRoot>
-      <Suspense fallback="load...">
+      <Suspense fallback={<LoadApp />} >
         <div className={style.App}>
           <div className={style.Coluna}>
             <Card>

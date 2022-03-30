@@ -23,3 +23,30 @@ Neste curso pode intender conseitos de gerenciamento de estado na aplicação, e
       <img src="img/event-tracker.png" alt="cs" width="100%" height="100%"/>
     </a>
 <p>
+
+## Executando a aplicação
+
+Aplicação criada com o [Create React App](https://github.com/facebook/create-react-app), sendo assim para executar, basta clonar o projeto.
+
+```shell
+git clone https://github.com/alexandreceti/event-tracker.git
+```
+
+Acessar a pasta do projeto e instalar dependencias do projeto:
+
+```shell
+cd event-tracker
+npm install
+```
+
+Iniciar a aplicação:
+
+```shell
+npm start
+```
+
+E em outra tela de terminal, acessar a pasta do projeto, e iniciar a api com o [json-server](https://github.com/typicode/json-server).
+
+```shell
+npx json-server db.json --watch -p 8080
+```

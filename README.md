@@ -19,9 +19,7 @@ Neste curso pode intender conseitos de gerenciamento de estado na aplicação, e
 ## Tela
 
 <p align="center">
-    <a href="https://pt.wikipedia.org/wiki/Linux">
       <img src="img/event-tracker.png" alt="cs" width="100%" height="100%"/>
-    </a>
 <p>
 
 ## Executando a aplicação

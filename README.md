@@ -2,7 +2,7 @@
 
 Aplicação [React](https://pt-br.reactjs.org/) criada na realização do curso [Alura](http://www.alura.com.br):
 
-## [REACT: Gerenciando estato com recoil](https://www.alura.com.br/curso-online-react-gerenciando-estado-recoil)
+## [REACT: Gerenciando estado com recoil](https://www.alura.com.br/curso-online-react-gerenciando-estado-recoil)
 
 - Projete uma boa solução de gestão de estado com Recoil
 - Entenda todas as vantagens do Recoil
@@ -14,7 +14,7 @@ Esta curso tem como objeivo de estudo o conceito de estado global utilizando a b
 
 ## Aprendizado
 
-Neste curso pode intender conseitos de gerenciamento de estado na aplicação, e tecnicas para melhor organizar os compontes, e lidar com com o problemas de prop drilling "vazamento de props".
+Neste curso, pude entender conceitos de gerenciamento de estado na aplicação e técnicas para melhor organizar os componente. Também foi possível aprender sobre a melhor maneira de lidar com os problemas de prop drilling "vazamento de props".
 
 ## Tela
 
@@ -30,20 +30,20 @@ Aplicação criada com o [Create React App](https://github.com/facebook/create-r
 git clone https://github.com/alexandreceti/event-tracker.git
 ```
 
-Acessar a pasta do projeto e instalar dependencias do projeto:
+Acesse a pasta do projeto e instalar dependencias do projeto:
 
 ```shell
 cd event-tracker
 npm install
 ```
 
-Iniciar a aplicação:
+Inicie a aplicação:
 
 ```shell
 npm start
 ```
 
-E em outra tela de terminal, acessar a pasta do projeto, e iniciar a api com o [json-server](https://github.com/typicode/json-server).
+E em outra tela de terminal, acessar a pasta do projeto e iniciar a api com o [json-server](https://github.com/typicode/json-server).
 
 ```shell
 npx json-server db.json --watch -p 8080

@@ -24,8 +24,12 @@ export const eventosFiltradosState = selector({
 export const AsyncEventos = selector({
   key: "asyncEventos",
   get: async () => {
-    const response = await fetch("http://localhost:8080/eventos");
-    const jsonEventos: IEvento[] = await response.json();
+    const response = await fetch("./db.json");
+    // console.log(await response.json());
+    const temp = await response.json();
+    console.log(temp?.eventos);
+    const jsonEventos: IEvento[] = temp?.eventos;
+    // const jsonEventos: IEvento[] = await response.json();
     const eventos = jsonEventos.map((evento) => {
       const item = {
         ...evento,
@@ -34,6 +38,7 @@ export const AsyncEventos = selector({
       };
       return item;
     });
+
     return eventos;
   },
 });
